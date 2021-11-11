@@ -23,7 +23,7 @@ async def answer(udbot, query):
                     ),
                     url="https://t.me/OMG_info",
                     description="Welcome Aboard Homie!",
-                    thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                    thumb_url="https://te.legra.ph/file/a9890c6b0888d84a9138e.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -61,7 +61,7 @@ async def answer(udbot, query):
                     input_message_content=InputTextMessageContent(rand_string),
                     url="https://t.me/OMG_info",
                     description="Any Random Word",
-                    thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                    thumb_url="https://te.legra.ph/file/a9890c6b0888d84a9138e.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -103,7 +103,7 @@ async def answer(udbot, query):
                         input_message_content=InputTextMessageContent(rep),
                         url="https://t.me/OMG_info",
                         description=description,
-                        thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
+                        thumb_url="https://te.legra.ph/file/a9890c6b0888d84a9138e.jpg",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
