@@ -21,7 +21,7 @@ async def answer(udbot, query):
                         "This is Urban Dictionary Bot. You can search any word or words sequence or even get random word here! \n\n**Ways** \n\n"
                         + Data.HELP
                     ),
-                    url="https://t.me/StarkBots",
+                    url="https://t.me/OMG_info",
                     description="Welcome Aboard Homie!",
                     thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
                     reply_markup=InlineKeyboardMarkup(
@@ -34,14 +34,14 @@ async def answer(udbot, query):
                             ],
                             [
                                 InlineKeyboardButton(
-                                    "♥ More Amazing bots ♥",
-                                    url="https://t.me/StarkBots",
+                                    "♥ creator ♥",
+                                    url="https://t.me/shado_hackers",
                                 )
                             ],
                             [
                                 InlineKeyboardButton(
                                     "🎨 Support Group 🎨",
-                                    url="https://t.me/StarkBotsChat",
+                                    url="https://t.me/OMG_info",
                                 )
                             ],
                         ]
@@ -59,7 +59,7 @@ async def answer(udbot, query):
                 InlineQueryResultArticle(
                     title=f"Random Word: {word}",
                     input_message_content=InputTextMessageContent(rand_string),
-                    url="https://t.me/StarkBots",
+                    url="https://t.me/OMG_info",
                     description="Any Random Word",
                     thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
                     reply_markup=InlineKeyboardMarkup(
@@ -101,7 +101,7 @@ async def answer(udbot, query):
                     InlineQueryResultArticle(
                         title=f"{word}",
                         input_message_content=InputTextMessageContent(rep),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/OMG_info",
                         description=description,
                         thumb_url="https://telegra.ph/file/7f85505523205f27bafb7.jpg",
                         reply_markup=InlineKeyboardMarkup(
