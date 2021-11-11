@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode. \n\nBy @StarkBots"
+    START = "Hey {}. \n\nWelcome to {} \n\nI can search words from Urban Dictionary and give them to you. I will provide it's definition as well as example \n\nYou can send any word here or Try using my inline mode. \n\nBy @OMG_info"
 
     # Home Button
     home_buttons = [
@@ -30,8 +30,8 @@ class Data:
                 "➕ Add to your Group ➕", url="https://t.me/TheUrbanDictBot?startgroup=True"
             )
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ creator ♥", url="https://t.me/shado_hackers")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/OMG_info")],
     ]
 
     # Help Message
@@ -49,19 +49,20 @@ class Data:
  ~ You can also use: "/ud text here" or "/search text here" in groups.
  ~ Send "/random" to get random word.
 (If doesn't responds in group then make it admin. Telegram is weird)
+Join @OMG_info
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Bot created by @OMG_info
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/UrbanDictionaryBot)
+Hosted : Heroku
 
-Framework : [Pyrogram](docs.pyrogram.org)
+Follow : [Follow](https://mobile.twitter.com/Lusifer_noob)
 
-Language : [Python](www.python.org)
+Language : Python
 
-Developer : @StarkProgrammer
+Developer : @shado_hackers
     """
